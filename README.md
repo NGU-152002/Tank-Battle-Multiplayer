@@ -11,11 +11,12 @@
 **A real-time multiplayer tank battle game built with React, Node.js, and WebSockets**
 
 [🚀 Live Demo](#) • [📖 Documentation](#features) • [🛠️ Installation](#installation) • [🎯 How to Play](#how-to-play)
-[Watch Demo Video](https://www.youtube.com/watch?v=pXa9K9sVI0o)
+
 
 </div>
 
 ---
+[![Watch the video](https://img.youtube.com/vi/pXa9K9sVI0o/0.jpg)](https://www.youtube.com/watch?v=pXa9K9sVI0o)
 
 ## 🌟 Features
 
