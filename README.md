@@ -67,7 +67,7 @@
 2. **Install dependencies**
    ```bash
    # Install server dependencies
-   cd ser
+   cd server
    npm install
 
    # Install client dependencies
@@ -78,7 +78,7 @@
 3. **Start the development servers**
    ```bash
    # Start the main server (includes both WebSocket and Vite)
-   cd ../ser
+   cd ../server
    npm start
    ```
 
@@ -146,7 +146,7 @@ npm run dev
 ### 📁 **Project Structure**
 ```
 tank-battle-multiplayer/
-├── ser/                    # Backend server
+├── server/                    # Backend server
 │   ├── server.js          # WebSocket server & game logic
 │   └── package.json       # Server dependencies
 ├── vite-project/          # Frontend application
@@ -220,8 +220,8 @@ graph TD
 
 #### **Server (ser/)**
 ```bash
-npm start          # Start both WebSocket and Vite servers
-npm run server     # Start WebSocket server only
+node server.js          # Start both WebSocket and Vite servers
+
 ```
 
 #### **Client (vite-project/)**
@@ -275,13 +275,7 @@ We welcome contributions! Here's how you can help:
 - Test multiplayer functionality
 - Ensure cross-browser compatibility
 
----
 
-## 📄 **License**
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
 
 ## 🙏 **Acknowledgments**
 
@@ -302,7 +296,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 <div align="center">
 
-**Made with ❤️ by [Your Name]**
+**Made with ❤️ by Jayakrishna Akki**
 
 [⭐ Star this repo](https://github.com/NGU-152002/tank-battle-multiplayer) • [🔄 Fork this repo](https://github.com/NGU-152002/tank-battle-multiplayer/fork)
 
